@@ -15,7 +15,7 @@ Pod::Spec.new do |spec|
   spec.module_name = "mediasoup"
 
 	# Disable arc
-  spec.requires_arc = false
+  spec.requires_arc = true
 	# Set the xcode variables for the pod target
   spec.pod_target_xcconfig = {
     "USE_HEADERMAP" => "NO",
